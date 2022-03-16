@@ -12,7 +12,7 @@ let timelineElements = [
       title: "Innovation Specialist",
       location: "YoungCapital Direct",
       description:
-        "Connection between operations and development.",
+        "Connection between operations and development. Constantly looking for ways to make the app better for candidates, customer and recruiters.",
       date: "Oktober 2020 - December 2021",
       icon: "work",
     },

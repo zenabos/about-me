@@ -4,10 +4,10 @@ import Introduction from "./components/Introduction";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
-import Navbar from "./components/Navbar";
 import aos from "aos";
 import "../node_modules/aos/dist/aos.css";
-import { useEffect } from "react";
+import { useEffect } from "react"
+
 
 function App() {
   useEffect(() => {
@@ -16,9 +16,6 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <Navbar />
-      </header>
 
       <Introduction />
       <AboutMe />

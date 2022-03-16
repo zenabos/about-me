@@ -1,7 +1,7 @@
 import React from "react";
 import aos from "aos";
-import { ReactComponent as WorkIcon } from "./work.svg";
-import { ReactComponent as SchoolIcon } from "./school.svg";
+import { ReactComponent as WorkIcon } from "../images/work.svg";
+import { ReactComponent as SchoolIcon } from "../images/school.svg";
 import timelineElements from "./TimelineElements";
 import {
   VerticalTimeline,
@@ -13,7 +13,7 @@ export default function Experience() {
   return (
     <div id="experience" data-aos="fade-up">
       <h1>Experience</h1>
-      <hr></hr>
+      <hr className="devider"/>
       <VerticalTimeline 
       lineColor={'#309cad' }>
         {timelineElements.map((element) => {

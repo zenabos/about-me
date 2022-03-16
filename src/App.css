@@ -7,6 +7,16 @@
   color: rgb(53, 53, 53);
 }
 
+.socials {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+}
+
+.socialIcon {
+  margin: 20px 20px
+}
+
 .vertical-timeline-element-content {
   text-align: left;
   box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
@@ -25,15 +35,32 @@ h1 {
   margin-bottom: 10px;
 }
 
-hr {
+#scroll {
+  padding-top: 50px;
+  color: #309cad;
+  font-size: large;
+
+}
+
+#arrow {
+  width: 30px;
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-top: 0;
+}
+
+.devider {
   border: 2px solid #309cad;
-  background-color: #309cad;
+  background-color: #309cad !important;
   width: 100px;
   margin-top: 0;
   margin-bottom: 50px;
+
 }
 
-img {
+#profilepicture {
   border: 5px solid #309cad;
   border-radius: 50%;
 }
@@ -49,6 +76,7 @@ img {
 
 #introduction {
   height: 100vh;
+  margin: 0 auto;
 }
 
 .details {
@@ -79,7 +107,36 @@ li:before {
   color: #309cad;
 }
 
-
 span {
-  color:#309cad
+  color: #309cad;
+}
+
+#projects {
+  padding: 5% 0;
+}
+
+.projectsbox {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+.projectcard {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  border: 3px solid #309cad;
+  border-radius: 5%;
+}
+
+.projectcard img {
+  max-width: 200px;
 }
