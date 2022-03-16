@@ -50,3 +50,36 @@ img {
 #introduction {
   height: 100vh;
 }
+
+.details {
+  width: 100%;
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.box {
+  width: 30%;
+  text-align: left;
+  padding: auto;
+  padding-left: 20%;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
+  margin: 1em 0;
+}
+
+li:before {
+  content: "\2605";
+  color: #309cad;
+}
+
+
+span {
+  color:#309cad
+}

@@ -21,7 +21,7 @@ let timelineElements = [
       title: "Founder",
       location: "Meetive",
       description:
-        "Founded meetive to help companies have effective meetings via webinars, workshops and inspirationssessions.",
+        "Meetive helps companies to make their meetings more effective by organizing webinars, workshops and inspirationsessions.",
       date: "June 2020 - Present",
       icon: "work",
     },
@@ -44,7 +44,7 @@ let timelineElements = [
     },
     {
       id: 6,
-      title: "Master of Science (MSc) Management, Communication & Organisation",
+      title: "Master: Management, Communication & Organisation",
       location: "Vrije Universiteit Amsterdam",
       description:
         "Thesis: Organisational change",
@@ -53,10 +53,10 @@ let timelineElements = [
     },
     {
       id: 6,
-      title: "Bachelor of Science (BSc) Communication ",
+      title: "Bachelor: Communication Science ",
       location: "University of Amsterdam",
       description:
-        "Thesis: Virtual teams",
+        "Thesis: Working in virtual teams",
       date: "2008 - 2012",
       icon: "school",
     },

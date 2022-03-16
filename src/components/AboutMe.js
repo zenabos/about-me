@@ -1,22 +1,27 @@
 import React from "react";
 import aos from "aos";
+import Languages from "./Languages";
+import Skills from "./Skills";
 
 export default function AboutMe() {
   return (
     <div id="about" className="section" data-aos="fade-up">
       <h1>About me</h1>
-      <hr/>
+      <hr />
 
-        <p> 
+      <p>
+        After many years of working closely with developers as an <span><b>Project Manager</b></span>, <br/> I decided to
+        become a <span><b>developer</b></span> myself. <br/><br/>
 
+        
 
-- Project Manager (6+ years) 
-- Eager to learn
-- Creative, think outside the box
-- Efficiency is key
-- Problem solving
+        I'm very passionate about <span><b>efficiency</b></span>, and never leave a problem unsolved.
+      </p>
 
-My passion for development combined with my experience as a Project Manager makes a curious developer who will always keep the bigger picture in mind.</p>
+      <div className="details">
+        <Skills />
+        <Languages />
+      </div>
     </div>
   );
 }

@@ -8,7 +8,6 @@ import Navbar from "./components/Navbar";
 import aos from "aos";
 import "../node_modules/aos/dist/aos.css";
 import { useEffect } from "react";
-import Skills from "./components/Skills";
 
 function App() {
   useEffect(() => {
@@ -23,7 +22,6 @@ function App() {
 
       <Introduction />
       <AboutMe />
-      <Skills />
       <Experience />
       <Projects />
 
