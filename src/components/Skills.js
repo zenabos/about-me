@@ -4,7 +4,7 @@ import aos from "aos";
 
 export default function Skills() {
   return (
-    <div className="box" data-aos="fade-up">
+    <div id="skills" className="box" data-aos="fade-up">
       <h2>Skills</h2>
         <li> JavaScript</li>
         <li> HTML & CSS</li>

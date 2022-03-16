@@ -4,7 +4,7 @@ import aos from "aos";
 
 export default function Languages() {
   return (
-    <div className='box' data-aos="fade-up">
+    <div id='languages' className="box" data-aos="fade-up">
       <h2>Languages</h2>
         <li> Dutch (native) </li>
         <li> English (fluent)</li>
