@@ -9,7 +9,7 @@
 }
 
 #profilepicture {
-  max-width: 30%;
+  max-width: 70%;
   border: 5px solid #309cad;
   border-radius: 50%;
 }
@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-  margin: 0;
+  margin-bottom: 0;
 }
 
 #scroll {
@@ -68,10 +68,7 @@ h4 {
   width: 100px;
   margin-top: 0;
   margin-bottom: 50px;
-
 }
-
-
 
 .section {
   width: 60%;
@@ -98,13 +95,19 @@ h4 {
 }
 
 .box {
-  width: 40%;
+  text-align: left;
   display: flex;
-  box-sizing: border-box;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   border-radius: 5%;
+  margin-left: 20px;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+  width: 175px;
 }
 
 li {
@@ -138,19 +141,19 @@ span {
 
 
 .projectcard {
-  width: 40%;
+  width: 350px;
   height: 400px;
   display: flex;
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 10px;
+  padding: 20px;
   border: 3px solid #309cad;
   border-radius: 5%;
-  margin: 10;
+  margin: 10px;
 }
 
 .projectcard img {
-  max-width: 200px;
+  max-height: 200px;
 }

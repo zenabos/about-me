@@ -7,7 +7,7 @@ export default function Skills() {
     <div id="skills" className="box" data-aos="fade-up">
       <h2>Skills</h2>
       <ul>
-        <li> JavaScript</li>
+        <li> JavaScript (ES6)</li>
         <li> HTML & CSS</li>
         <li> React.js</li>
         <li> Node.js</li>
