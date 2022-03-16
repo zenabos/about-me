@@ -8,6 +8,12 @@
   padding: 2% 0;
 }
 
+#profilepicture {
+  max-width: 30%;
+  border: 5px solid #309cad;
+  border-radius: 50%;
+}
+
 .socials {
   display: flex;
   justify-content: space-between !important;
@@ -36,6 +42,10 @@ h1 {
   margin-bottom: 10px;
 }
 
+h2 {
+  margin: 0;
+}
+
 #scroll {
   padding-top: 50px;
   color: #309cad;
@@ -61,10 +71,7 @@ h4 {
 
 }
 
-#profilepicture {
-  border: 5px solid #309cad;
-  border-radius: 50%;
-}
+
 
 .section {
   width: 60%;
@@ -91,12 +98,13 @@ h4 {
 }
 
 .box {
-  width: 250px;
-  text-align: left;
-}
-
-#skills {
-  padding-left: 150px;
+  width: 40%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5%;
 }
 
 li {
@@ -130,7 +138,7 @@ span {
 
 
 .projectcard {
-  width: 400px;
+  width: 40%;
   height: 400px;
   display: flex;
   box-sizing: border-box;

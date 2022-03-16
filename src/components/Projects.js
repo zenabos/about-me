@@ -16,8 +16,8 @@ export default function Projects() {
           </a>
           <h3>meetive app</h3>
           <p>
-            Mobile focused web application to schedule your meetings, choose
-            your topics and invite your colleagues.
+            Mobile focused web application to schedule meetings, choose
+           topics and invite colleagues.
           </p>
         </div>
 
