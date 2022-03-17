@@ -11,18 +11,18 @@ export default function Projects() {
 
       <div className="projectsbox">
         <div className="projectcard">
-          <a href="https://dozema-coffee.herokuapp.com/">
+          <a href="https://meetive.netlify.app/">
             <img src={meetive} alt="dozema" />
           </a>
           <h3>meetive app</h3>
           <p>
-            Mobile focused web application to schedule meetings, choose
-           topics and invite colleagues.
+            Mobile focused web application to schedule meetings, choose topics
+            and invite colleagues.
           </p>
         </div>
 
         <div className="projectcard">
-          <a href="https://meetive.netlify.app/">
+          <a href="https://dozema-coffee.herokuapp.com/">
             <img src={dozema} alt="dozema" />
           </a>
           <h3>dozema-coffee</h3>
