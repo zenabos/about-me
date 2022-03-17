@@ -8,7 +8,7 @@ export default function Languages() {
       <ul>
         <li> Dutch (native) </li>
         <li> English (fluent)</li>
-        <li> German (beginner)</li>
+        <li> German (intermediate)</li>
         <li> Italian (beginner)</li>
       </ul>
     </div>
